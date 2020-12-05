@@ -1,6 +1,15 @@
-// var txtButton = document.querySelector("#txt-button");
-// console.log(txtButton);
-// console.log("hi")
-alert("this is working")
-var userName = prompt("what is ur name?")
-alert("hi " + userName)
+var txtButton = document.querySelector("#txt-button");
+var txtArea = document.querySelector(".textarea");
+var txtOutput = document.querySelector("#output-area");
+
+txtOutput.innerText = "i am ironman"
+
+function clickHandler() {
+    console.log("clicked")
+    console.log("input", txtArea.value)
+   
+}
+
+
+txtButton.addEventListener("click", clickHandler)
+
