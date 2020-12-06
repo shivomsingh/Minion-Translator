@@ -10,6 +10,11 @@ function colUrl(text){
     return serverUrl + "?text=" + text
 }
 
+function errorHandler(error){
+    console.log("error occure", error)
+    alert("Something went wrong")
+}
+
 function clickHandler() {
     fetch(colUrl(txtArea.value)) //input
     .then(respone => respone.json()) //processing
@@ -19,6 +24,7 @@ function clickHandler() {
 
     txtOutput.innerText= translatedText  //ouptut
     })
+    .catch(errorHandler)
 }
 
 
