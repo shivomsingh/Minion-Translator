@@ -17,9 +17,12 @@ body{
     font-size: large;
 }
 
-.section{
-    margin: 0rem 30rem;
-    
+/* //setting section width to make it responsive */
+section{
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    /* padding: 45px 0rem;     */
 }
 
 textarea{
