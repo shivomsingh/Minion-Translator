@@ -12,8 +12,8 @@ body{
 .navbar{
     background-color: var(--primary-color);
     text-align: center;
-    padding: 1rem;
-    margin: 0rem 0rem 2rem;
+    padding: 1em;
+    margin: 0em 0em 2em;
     font-size: large;
 }
 
@@ -22,7 +22,7 @@ section{
     width: 80%;
     max-width: 600px;
     margin: auto;
-    /* padding: 45px 0rem;     */
+    
 }
 
 textarea{
@@ -35,8 +35,8 @@ textarea{
 #txt-button{
     font-family: 'Kalam', cursive;
     font-size: large;
-    padding: 1rem 2rem;
-    margin: 0.5rem 0rem 1.5rem;
+    padding: 1em 2em;
+    margin: 0.5em 0em 1.5em;
     border: none;
     background-color: var(--primary-color);
    
@@ -46,9 +46,9 @@ textarea{
     display: block;
     border: solid;
     width: 100%;
-    margin: 0.5rem 0rem ;
+    margin: 0.5em 0em ;
     height: 10vh;
-    padding: 0.75rem;
+    padding: 0.75em;
     word-wrap: break-word;
 }
 
@@ -64,7 +64,8 @@ textarea{
 }
 
 .footer-heading{
-    font-size: larges;
+    font-size: large;
+    width: 80%;
     max-width: 600px;
     margin: auto;
 }
