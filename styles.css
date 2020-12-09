@@ -56,7 +56,7 @@ textarea{
     background-color: var(--primary-color);
     font-size: large;
     text-align: center;
-    /* position: fixed; */
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
