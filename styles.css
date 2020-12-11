@@ -50,6 +50,7 @@ textarea{
     height: 10vh;
     padding: 0.75em;
     word-wrap: break-word;
+    overflow: scroll;
 }
 
 .footer{
